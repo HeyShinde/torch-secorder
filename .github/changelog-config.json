@@ -1,0 +1,68 @@
+{
+    "categories": [
+        {
+            "title": "### 🚀 Features",
+            "labels": ["feature", "enhancement", "feat", "new feature", "feature request"]
+        },
+        {
+            "title": "### Changed",
+            "labels": ["change", "update", "modify", "refactor", "refactoring"]
+        },
+        {
+            "title": "### 🐛 Fixed",
+            "labels": ["fix", "bug", "bugfix", "fixes", "issue", "bug report"]
+        },
+        {
+            "title": "### 📚 Documentation",
+            "labels": ["documentation", "docs", "doc", "readme", "guide", "tutorial"]
+        },
+        {
+            "title": "### 🔧 Maintenance",
+            "labels": ["maintenance", "chore", "refactor", "refactoring", "cleanup", "code cleanup"]
+        },
+        {
+            "title": "### ⚡️ Performance",
+            "labels": ["performance", "perf", "optimization", "optimize", "speed"]
+        },
+        {
+            "title": "### 🧪 Testing",
+            "labels": ["test", "testing", "tests", "unit test", "integration test"]
+        },
+        {
+            "title": "### 🔒 Security",
+            "labels": ["security", "vulnerability", "secure", "security fix"]
+        },
+        {
+            "title": "### 🎨 Style",
+            "labels": ["style", "formatting", "lint", "linter", "code style"]
+        },
+        {
+            "title": "### 📦 Dependencies",
+            "labels": ["dependencies", "deps", "dependency", "package", "packages"]
+        },
+        {
+            "title": "### 🚨 Breaking Changes",
+            "labels": ["breaking", "breaking change", "breaking-change", "major"]
+        }
+    ],
+    "ignore_labels": [
+        "ignore",
+        "skip-changelog",
+        "wontfix",
+        "duplicate",
+        "invalid",
+        "question"
+    ],
+    "sort": "ASC",
+    "template": "## [{{TAG_NAME}}] - {{DATE}}\n\n#{{CHANGELOG}}\n\n<details>\n<summary>Uncategorized</summary>\n\n### Uncategorized\n\n#{{UNCATEGORIZED}}\n</details>",
+    "pr_template": "- #{{NUMBER}} #{{TITLE}} (#{{AUTHOR}})",
+    "empty_template": "## [{{TAG_NAME}}] - {{DATE}}\n\nNo changes in this release.",
+    "categories_template": "#{{TITLE}}\n\n#{{CHANGELOG}}\n",
+    "label_extractor": [
+        {
+            "pattern": "^(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert|security|deps)(\\([\\w\\-\\.]+\\))?(!)?: ([\\w ])+([\\s\\S]*)",
+            "on_property": "title",
+            "target": "$1"
+        }
+    ]
+}
