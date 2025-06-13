@@ -1,5 +1,6 @@
 # torch-secorder
 
+![Alt text](https://github.com/PyBrainn/torch-secorder/blob/main/docs/_static/logo.png "torch-secorder")
 A PyTorch-native library for efficient second-order computations in deep neural networks.
 
 ## Overview

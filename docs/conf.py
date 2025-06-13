@@ -26,6 +26,8 @@ extensions = [
     "myst_parser",
 ]
 
+html_logo = "_static/logo.png"
+
 # Add any paths that contain templates here
 templates_path = ["_templates"]
 
