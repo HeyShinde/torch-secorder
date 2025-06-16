@@ -13,6 +13,7 @@ Torch-Secorder is a PyTorch library for efficient second-order optimization and 
    api/approximations
    api/analysis
    examples
+   SECURITY
    contributing
 
 Indices and tables

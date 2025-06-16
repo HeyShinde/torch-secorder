@@ -1,6 +1,10 @@
 # torch-secorder
 
-![Alt text](https://github.com/PyBrainn/torch-secorder/blob/main/docs/_static/logo.png "torch-secorder")
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PyBrainn/torch-secorder/refs/heads/main/docs/_static/logo.png"
+  alt="torch-secorder logo" width="200"/>
+</p>
+
 A PyTorch-native library for efficient second-order computations in deep neural networks.
 
 ## Overview
